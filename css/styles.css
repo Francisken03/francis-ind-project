@@ -225,10 +225,7 @@ section {
   }
 
   /* FAQs PAGE */
-  .collapse ul {
-    list-style-position: inside;
-    list-style-type: none;
-  }
+
 
 
 /* Media Query CSS for x.small screen size */
