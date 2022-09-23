@@ -208,6 +208,8 @@ section {
 }
 
 
+
+
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
     h1 {
