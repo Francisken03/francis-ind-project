@@ -128,3 +128,8 @@ section {
   position: absolute;
   width: 50px;
 }
+
+.sections-heading {
+    margin-bottom: 50px;
+    overflow: hidden;
+    }
