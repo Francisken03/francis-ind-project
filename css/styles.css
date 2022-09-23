@@ -189,3 +189,20 @@ section {
   -o-transition: all 0.35s ease-in-out;
   width: 100%;
 }
+
+.team-area .info h4 {
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.team-area .info span {
+  color: #ff5a6e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.team-area .item-container {
+  margin-bottom: 30px;
+}
