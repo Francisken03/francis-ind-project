@@ -83,3 +83,18 @@ COLOR PALLETE
     font-family: 'Playfair Display', serif;
     font-size: 80px;
   }
+
+  main {
+    min-height: 100vh;
+    margin-bottom: -20px;
+  }
+
+  section {
+    /* padding-top: 30px; */
+    margin-top: 1.5rem !important;
+    padding-bottom: 20px;
+  }
+
+  .about-us-cta {
+    color: white;
+  }
