@@ -224,6 +224,12 @@ section {
     height: 20px;
   }
 
+  /* FAQs PAGE */
+  .collapse ul {
+    list-style-position: inside;
+    list-style-type: none;
+  }
+
 
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
