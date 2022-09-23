@@ -250,6 +250,16 @@ footer {
   padding-bottom: 30px;
 }
 
+/* CONTACT FORM */
+.office-details ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .call {
+    text-decoration: none;
+  }
+
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
   h1 {
