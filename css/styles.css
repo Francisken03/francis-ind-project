@@ -241,6 +241,7 @@ footer {
   border: none;
 }
 
+/* EVENTS PAGE */
 .events-header {
   font-weight: 700;
   color: #367e18;
@@ -250,14 +251,9 @@ footer {
   padding-bottom: 30px;
 }
 
-/* CONTACT FORM */
+/* CONTACT PAGE */
 .office-details ul li {
-    text-decoration: none;
     list-style-type: none;
-  }
-
-  .call {
-    text-decoration: none;
   }
 
 /* Media Query CSS for x.small screen size */
