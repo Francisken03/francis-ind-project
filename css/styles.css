@@ -233,6 +233,9 @@ footer {
   padding: 10px;
 }
 
+.faq-btn:focus {
+  background-color: #367e18;
+}
 
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
