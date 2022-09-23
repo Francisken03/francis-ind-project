@@ -63,5 +63,8 @@ COLOR PALLETE
     transform: translateX(-50%) translateY(-50%);
   }
 
-  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
   
