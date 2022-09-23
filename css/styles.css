@@ -208,36 +208,42 @@ section {
 }
 
 .carousel-container {
-    max-height: 700px;
-    max-width: 700px;
-    margin-bottom: 30px;
-  }
+  max-height: 700px;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
 
-  .bottom {
-    padding-top: 20px;
-  }
-  
-  footer {
-    width: 100%;
-    background-color: black;
-    color: white;
-    height: 20px;
-  }
+.bottom {
+  padding-top: 20px;
+}
 
-  /* FAQs PAGE */
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 20px;
+}
 
+/* FAQs PAGE */
+.faq-section,
+.events-section {
+  border: #367e18 solid 2px;
+  border-radius: 2px;
+  border-spacing: 2px;
+  padding: 10px;
+}
 
 
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 50px;
-    }
+  h1 {
+    font-size: 50px;
   }
-  
-  /* The following lines will manipulate the html elements if the viewer is using a screen equals to or larger than 992px */
-  @media only screen and (min-width: 992px) {
-    h1 {
-      font-size: 150px;
-    }
+}
+
+/* The following lines will manipulate the html elements if the viewer is using a screen equals to or larger than 992px */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 150px;
   }
+}
