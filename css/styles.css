@@ -207,7 +207,11 @@ section {
   margin-bottom: 30px;
 }
 
-
+.carousel-container {
+    max-height: 700px;
+    max-width: 700px;
+    margin-bottom: 30px;
+  }
 
 
 /* Media Query CSS for x.small screen size */
