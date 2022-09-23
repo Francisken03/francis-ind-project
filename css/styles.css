@@ -74,7 +74,7 @@ header .container {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
   opacity: 0.5;
   z-index: 1;
 }
@@ -206,3 +206,18 @@ section {
 .team-area .item-container {
   margin-bottom: 30px;
 }
+
+
+/* Media Query CSS for x.small screen size */
+@media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
+  
+  /* The following lines will manipulate the html elements if the viewer is using a screen equals to or larger than 992px */
+  @media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 150px;
+    }
+  }
