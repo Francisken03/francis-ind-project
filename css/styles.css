@@ -241,6 +241,15 @@ footer {
   border: none;
 }
 
+.events-header {
+  font-weight: 700;
+  color: #367e18;
+}
+
+.events-group {
+  padding-bottom: 30px;
+}
+
 /* Media Query CSS for x.small screen size */
 @media only screen and (max-width: 480px) {
   h1 {
