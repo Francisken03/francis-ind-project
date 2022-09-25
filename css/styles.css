@@ -231,6 +231,7 @@ footer {
   border-radius: 2px;
   border-spacing: 2px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .faq-btn:focus {
