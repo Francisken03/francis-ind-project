@@ -24,7 +24,7 @@ body {
   font-size: 1.2em;
 }
 
-.contact-us {
+/* .contact-us {
   border: 1px solid black;
   background-color: #cc3636;
   border-radius: 4px;
@@ -37,6 +37,26 @@ body {
   text-decoration: none;
   padding: 2px;
   font-size: 1.2em;
+} */
+
+.contact-us-cta {
+  color: white !important;
+  border: 1px solid black;
+  background-color: #cc3636;
+  border-radius: 4px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.contact-us-cta:hover{
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 1.2em;
+}
+
+.about-us-cta {
+  padding: 1px 5px;
 }
 
 header {
@@ -93,10 +113,6 @@ section {
   /* padding-top: 30px; */
   margin-top: 1.5rem !important;
   padding-bottom: 20px;
-}
-
-.about-us-cta {
-  color: white;
 }
 
 .sections-heading h2 {
