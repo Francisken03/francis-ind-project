@@ -257,6 +257,10 @@ footer, p {
   margin-bottom: 20px;
 }
 
+.span-small {
+  text-transform: lowercase;
+}
+
 .faq-btn:focus {
   background-color: #367e18;
 }
