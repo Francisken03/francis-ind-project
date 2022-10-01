@@ -213,16 +213,21 @@ section {
   margin-bottom: 30px;
 }
 
-.bottom {
+/* .push {
   padding-top: 20px;
-}
+} */
 
 footer {
   width: 100%;
   background-color: black;
   color: white;
   height: 20px;
+  margin: 0%;
 }
+
+/* .bottom, p {
+  margin-bottom: 0% !important;
+} */
 
 /* FAQs PAGE */
 .faq-section,
