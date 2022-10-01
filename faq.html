@@ -31,11 +31,10 @@
                 <a class="navbar-brand" href="#">
                     <img src="images/hydrofarm-logo(trans).png" alt="Hydrofarm Logo" width="200" height="40">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar-content" aria-controls="navbar-content"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+                    aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbar-content" id="top">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -101,41 +100,125 @@
                 </div>
 
                 <!-- Accordion collapse -->
-                <div class="collapse-containercontainer row">
+                <div class="collapse-container container row">
                     <div class="col-lg-4 text-start" id="parent-btn">
-                        <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-definition" aria-expanded="false"
-                            aria-controls="#collapse-definition" data-parent="#parent-btn">
-                            What is hydroponics?
-                        </button>
+                        <div>
+                            <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-definition" aria-expanded="false"
+                                aria-controls="#collapse-definition" data-parent="#parent-btn">
+                                What is hydroponics?
+                            </button>
 
-                        <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-types" aria-expanded="false" aria-controls="#collapse-types"
-                            data-parent="#parent-btn">
-                            What are the different types of hydroponics system?
-                        </button>
+                            <div class="collapse sm-screen-collapse" id="collapse-definition">
+                                <div class="card card-body">
+                                    Hydroponics is the method of growing plants in nutrient solutions (with or
+                                    without an inert medium such as soil) to provide mechanical support.
+                                </div>
+                            </div>
 
-                        <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-vs" aria-expanded="false" aria-controls="#collapse-vs"
-                            data-parent="#parent-btn">
-                            Difference of hydroponics vs other farming methods
-                        </button>
+                        </div>
 
-                        <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-other" aria-expanded="false" aria-controls="#collapse-other"
-                            data-parent="#parent-btn">
-                            Other non-traditional farming methods:
-                        </button>
+                        <div>
+                            <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-types" aria-expanded="false"
+                                aria-controls="#collapse-types" data-parent="#parent-btn">
+                                What are the different types of hydroponics system?
+                            </button>
 
-                        <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-myths" aria-expanded="false" aria-controls="#collapse-myths"
-                            data-parent="#parent-btn">Common myths about
-                            hydroponics:
-                        </button>
+                            <div class="collapse sm-screen-collapse" id="collapse-types">
+                                <div class="card card-body">
+                                    <ul style="list-style-position: inside; list-style-type: none;">
+                                        <li>Wicking</li>
+                                        <li>Deep Water Culture (DWC)</li>
+                                        <li> Nutrient Film Technique (NFT)</li>
+                                        <li>Ebb and Flow</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-vs" aria-expanded="false"
+                                aria-controls="#collapse-vs" data-parent="#parent-btn">
+                                Difference of hydroponics vs other farming methods
+                            </button>
+
+                            <div class="collapse sm-screen-collapse" id="collapse-vs">
+                                <div class="card card-body">
+                                    <ul style="list-style-position: inside; list-style-type: none;">
+                                        <li>When plants are grown in a hydroponic system, they grow at a rate of 30% -
+                                            50% faster compared to traditional farming methods.</li>
+                                        <li>Because water in a hydroponic system is captured and reused, the systems use
+                                            less water — as much as 10 times less water — than traditional field crop
+                                            watering methods.</li>
+                                        <li>Hydroponics saves space. Crops can be planted very close to one another with
+                                            a hydroponics system since root growth is limited.</li>
+                                        <li>A hydroponic system grows nutrient-dense produce in greater quantities. In
+                                            fact, we've found that our hydroponic vertical farms can grow about 240
+                                            times more than traditional farming methods.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-other" aria-expanded="false"
+                                aria-controls="#collapse-other" data-parent="#parent-btn">
+                                Other non-traditional farming methods:
+                            </button>
+
+                            <div class="collapse sm-screen-collapse" id="collapse-other">
+                                <div class="card card-body">
+                                    <ul style="list-style-position: inside; list-style-type: none;">
+                                        <li>Aeroponics</li>
+                                        <li>Aquaponics</li>
+                                        <li>Monoculture</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn faq-btn col-lg-12 col-md-12 col-sm-12 text-start" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-myths" aria-expanded="false"
+                                aria-controls="#collapse-myths" data-parent="#parent-btn">Common myths about
+                                hydroponics:
+                            </button>
+
+                            <div class="collapse sm-screen-collapse" id="collapse-myths">
+                                <div class="card card-body">
+                                    <ul style="list-style-position: inside; list-style-type: none;">
+                                        <li><b>You will need a lot of space to start:</b>
+                                            Space is not an obstacle in your path of growing healthy food. You can even
+                                            set up your hydroponics system vertically to save space.</li>
+                                        <li><b>It is expensive to start:</b>
+                                            You don't need to buy new materials to set up a hydroponics system. You can
+                                            use old pvc pipes, wood, and food container to start. You can find in the
+                                            #PAGE some ways to start without breaking your pocket.</li>
+                                        <li><b>The chemicals are harmful:</b>The nutrients used in hydroponics are safe
+                                            to use. Because we are not using soil to grow the plant, pests can't reach
+                                            our plant. That means, your favorite fruit or vegetable are free from
+                                            harmful chemicals that are usually found in pesticides.</li>
+                                        <li><b>Plants that grew in hydroponics are not healthy:</b>Technically,
+                                            hydroponic plants can be more nutritious. One of the main reasons for this
+                                            is that you have complete control over your plants' nutrients. You can
+                                            tailor the water and nutrient mixture to meet the specific needs of your
+                                            plants, which can result in plants that are healthier and more
+                                            nutrient-dense.</li>
+                                        <li><b>It is difficult to maintain:</b>I won't try to deceive you by saying it
+                                            is easy to set-up and maintain especially if you don't know where to start.
+                                            Don't fret because we are here to help!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- accordion expanded -->
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 lg-screen-collapse">
                         <div class="collapse" id="collapse-definition">
                             <div class="card card-body">
                                 Hydroponics is the method of growing plants in nutrient solutions (with or
@@ -210,7 +293,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
 
