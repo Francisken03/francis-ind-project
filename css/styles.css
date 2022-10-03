@@ -288,6 +288,10 @@ footer, p {
   margin-bottom: 20px;
 }
 
+.events-img {
+align-items: center;
+}
+
 /* CONTACT PAGE */
 .office-details ul li {
     list-style-type: none;
